@@ -15,5 +15,5 @@ message FoodListRequest {
 }
 
 message FoodListResponse {
-    string purchaseList = 1;
+    repeated string purchaseList = 1;
 }
