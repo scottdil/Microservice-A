@@ -1,0 +1,19 @@
+// Source for code is from: https://grpc.io/docs/languages/python/quickstart/
+// and https://grpc.io/docs/languages/python/basics/
+// code is adapted from sample code to learn how to use gRPC with python.
+// 8/2/2024
+
+syntax = "proto3";
+
+service FoodListService {
+    rpc GetPurchaseList (FoodListRequest) returns (FoodListResponse) {}    
+}
+
+message FoodListRequest {
+    repeated string recipeList = 1;
+    repeated string foodList = 2;
+}
+
+message FoodListResponse {
+    string purchaseList = 1;
+}
