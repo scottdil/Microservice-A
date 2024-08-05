@@ -38,8 +38,7 @@ class FoodListServiceServicer (foodlist_pb2_grpc.FoodListServiceServicer):
         print("Sending purchase list: ", buy_list, '\n')
 
         # send the response of items to purchase
-        response_message = f"Purchase these items:{buy_list}"
-        return foodlist_pb2.FoodListResponse(purchaseList=response_message)
+        return foodlist_pb2.FoodListResponse(purchaseList=buy_list)
 
 
 # grpc server
