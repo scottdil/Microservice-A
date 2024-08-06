@@ -37,4 +37,4 @@ How to Request and Receive Data:
     process is very similar, but syntax is slightly different. 
 
 UML diagram:
-![alt text](image-2.png)
+![alt text](image.png)
