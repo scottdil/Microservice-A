@@ -1,6 +1,14 @@
 # Microservice-A
 Microservice A for Mikaella Shelby
 
+Communication Contract: 
+    To contact me for any questions or concerns please reach out to me on Microsoft Teams. 
+    I am not available until 6pm on week days. I will check teams once a day to see if any 
+    issues come up. If you cannot reach me on teams for some reason you can email me at 
+    scottdil@oregonstate.edu. I have much greater availability on the weekends and if you 
+    need assistance or have questions let me know. I am open to scheduling a voice call 
+    if needed. 
+
 How to Request and Receive Data: 
     The microservice server is written in python. You will need to set your environment
     to use python with grpc. Sounds like you have experience with gRPC in the past. 
